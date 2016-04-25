@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction Id="3bcfc9b2-b6f2-4871-a2e8-71e7ffee8dce.MenuItemCustomAction"
+                RegistrationType="List"
+                RegistrationId="101"
+                Location="EditControlBlock"
+                Sequence="10001"
+                Title="Invoke &apos;MenuItemCustomAction&apos; action">
+    <!-- 
+    Update the Url below to the page you want the custom action to use.
+    Start the URL with the token ~remoteAppUrl if the page is in the
+    associated web project, use ~appWebUrl if page is in the app project.
+    -->
+    <UrlAction Url="~appWebUrl/Pages/Default.aspx?{StandardTokens}&amp;SPListItemId={ItemId}&amp;SPListId={ListId}" />
+  </CustomAction>
+</Elements>

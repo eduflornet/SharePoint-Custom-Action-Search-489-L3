@@ -1,0 +1,3 @@
+C:\Users\ericame\Documents\GitHub\SharePoint-Custom-Action-Search-489-L3\SPCustomActionSearch\SPCustomActionSearch\bin\Debug\SPCustomActionSearch.pdb
+C:\Users\ericame\Documents\GitHub\SharePoint-Custom-Action-Search-489-L3\SPCustomActionSearch\SPCustomActionSearch\obj\Debug\SPCustomActionSearch.dll
+C:\Users\ericame\Documents\GitHub\SharePoint-Custom-Action-Search-489-L3\SPCustomActionSearch\SPCustomActionSearch\obj\Debug\SPCustomActionSearch.pdb

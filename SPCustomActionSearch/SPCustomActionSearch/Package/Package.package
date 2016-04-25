@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="7f25079d-f2b7-45dc-bedf-a5a462455597" 
+        solutionId="7f25079d-f2b7-45dc-bedf-a5a462455597" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPCustomActionSearch"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="a98c05e1-a21b-48eb-a232-cd15a26ee87e" />
+  </features>
+</package>
