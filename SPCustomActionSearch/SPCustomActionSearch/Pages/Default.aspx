@@ -20,6 +20,7 @@
 
     <!-- Add your JavaScript to the following file -->
     <script type="text/javascript" src="../Scripts/App.js"></script>
+    <script type="text/javascript" src="../Scripts/App2.js"></script>
 </asp:Content>
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
@@ -33,12 +34,40 @@
     <div>
         
         <input id="txtSearch" type="text" />
-        <button id="btnSearch" type="button" onclick="DoSearch();">Go</button>
+        <button id="btnSearch" type="button" onclick="DoSearch();">Go1</button>
         
     </div>
     
     <div id="search-title"></div>
     
     <div id="search-results"></div>
+    
+    <br/>
 
+    <div>
+     Search:
+    <input id="txtSearchText" type="text" size="40" />
+    <input id="cmdSearch" type="button" value="Go2" />
+    </div>
+    
+    <br/>
+    
+    
+    <p>
+<table border="1" cellpadding="5" cellspacing="0">
+<thead>
+<tr>
+<th>Title</th>
+<th>Author</th>
+<th>Last Update</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody id="results">
+</tbody>
+</table>
+</p>
+    
+
+    
 </asp:Content>

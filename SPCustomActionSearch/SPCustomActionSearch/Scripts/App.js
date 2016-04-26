@@ -31,7 +31,7 @@ function DoSearch() {
 function getSearchResults(queryText) {
     $('#search-title').text('Search results for [' + queryText + ']');
 
-    var searchUrl = appweburl + "/_api/search/query?querytext='" + queryText + "'&trimduplicates=false";
+    var searchUrl = appweburl + "/_api/search/query?querytext='" + queryText + "'&trimduplicates=false" ;
     var executor = new SP.RequestExecutor(appweburl);
     executor.executeAsync(
     {
@@ -45,6 +45,8 @@ function getSearchResults(queryText) {
 
 function onGetSearchResultsSuccess(data) {
     var jsonObject = JSON.parse(data.body);
+    // Los resultados vuelven en formato JSON. 
+    // cada resultado individual se puede encontrar en:
     var results = jsonObject.d.query.PrimaryQueryResult.RelevantResults.Table.Rows.results;
     if (results.length == 0) {
         $('#search-results').text('No items were found');
@@ -56,6 +58,8 @@ function onGetSearchResultsSuccess(data) {
         });
 
         $("#search-results").html(searchResultsHtml);
+
+
     }
 }
 
